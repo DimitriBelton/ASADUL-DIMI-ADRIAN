@@ -34,6 +34,14 @@ nav ul li {
     justify-content: center;
 }
 
+nav ul li a {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    padding-left: 10px;
+}
 nav ul {
     list-style: none;
     padding-left: 0;
@@ -45,7 +53,7 @@ nav ul {
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 4px;
-    background-color: #fff;
+    background-color: rgb(197, 143, 143);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     /* Hintergrundbild entfernt, um die Lesbarkeit zu verbessern */
 }
@@ -82,4 +90,11 @@ nav ul {
 .recipe li {
     margin-bottom: 10px;
     font-size: 16px;
+}
+
+figure div.arrow {
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    z-index: 100;
 }
